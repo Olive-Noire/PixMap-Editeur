@@ -1,0 +1,11 @@
+DEV:
+
+    CLASS:
+        -Editor
+        -Image/Tab
+        -Pixel
+        -Pen
+
+COMMANDS:
+Ressources -> windres ./Sources/Ressources/Scripts/icons.rc -O coff -o ./Sources/Ressources/RES/ressources.res
+Compile -> g++ -m32 ./Sources/*.cpp ./Sources/Externals/Class/*.cpp ./Sources/Headers/Class/*.hpp ./Sources/Externals/Functions/*.cpp ./Sources/Headers/Functions/*.hpp ./Sources/Ressources/RES/*.res -o "./bin/Editor PPM" -I "./include/" -L "./lib/" -lSDL2Main -lSDL2 -s -std=c++17 -mwindows
