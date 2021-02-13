@@ -35,7 +35,6 @@ class Image {
     protected:
     Settings settings;
     std::vector<std::vector<Pixel>> pixels;
-    int background[3]{NULL,NULL,NULL};
     std::ofstream write;
     std::ifstream read;
     std::string content{};
