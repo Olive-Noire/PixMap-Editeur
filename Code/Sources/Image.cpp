@@ -259,12 +259,11 @@ void Image::Load(std::string p) {
 
         for (int i = 0;i < settings.sizeX;i++) {
 
-            pixels.push_back(*(new std::vector<Pixel>));
+            pixels.push_back(std::vector<Pixel>());
 
             for (int j = 0;j < settings.sizeY;j++) {
 
-                //pixels[i].push_back(*(new Pixel(NULL,NULL,NULL)));
-                pixels[i].push_back(*(new Pixel(/*rand()%256*/0,/*rand()%256*/0,/*rand()%256*/0)));
+                pixels[i].push_back(Pixel(0,0,0));
 
             }
 
