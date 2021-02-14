@@ -34,7 +34,7 @@ int main(int argc,char* argv[]) {
         
         editor.Update();
         editor.Render();
-        SDL_Delay(1000/100); // FPS
+        //SDL_Delay(1000/100); FPS
         
     }
 
