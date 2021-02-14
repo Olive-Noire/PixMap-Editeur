@@ -26,7 +26,7 @@ Editor::Editor() {
 
     }
 
-    Editor::window = SDL_CreateWindow("PPM EDITOR 0.0.1",SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,500,500,SDL_WINDOW_SHOWN);
+    Editor::window = SDL_CreateWindow("PPM EDITOR 0.2.0",SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,500,500,SDL_WINDOW_SHOWN);
     Editor::renderer = SDL_CreateRenderer(window,0,-1);
     picker = new Picker();
 
