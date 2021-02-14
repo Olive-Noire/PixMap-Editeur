@@ -275,6 +275,6 @@ void Image::Load(std::string p) {
 
     }
 
-    SDL_SetWindowTitle(Editor::window,("PPM EDITOR 0.0.1 - " + Split(Split(path,'\\')[Split(path,'\\').size()-1],'/')[Split(Split(path,'\\')[Split(path,'\\').size()-1],'/').size()-1]).c_str());
+    SDL_SetWindowTitle(Editor::window,("PPM EDITOR 0.2.0 - " + Split(Split(path,'\\')[Split(path,'\\').size()-1],'/')[Split(Split(path,'\\')[Split(path,'\\').size()-1],'/').size()-1]).c_str());
 
 }
