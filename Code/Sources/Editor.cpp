@@ -63,8 +63,8 @@ void Editor::Update() {
 
     if (((keys[SDLK_LALT] || keys[SDLK_RALT]) && keys[SDLK_F4]) || (event.type == SDL_WINDOWEVENT && event.window.event == SDL_WINDOWEVENT_CLOSE)) start = false;
 
-    //SDL_WaitEvent(&Editor::event);
-    SDL_PollEvent(&Editor::event);
+    SDL_WaitEvent(&Editor::event);
+    //SDL_PollEvent(&Editor::event);
     UpdateKeys(Editor::event);
     UpdateMouse(Editor::event);
         
