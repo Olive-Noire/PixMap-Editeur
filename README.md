@@ -1,6 +1,6 @@
 # PIXMAP-EDITEUR
 
-Un Editeur Pixmap qui prend en charge P1, P2 et P3 Gratuit et Open Source !
+Un Editeur Pixmap Multi-Plateforme Gratuit et Open Source !
 
 # COMMANDES
 - Clic gauche -> Stylo
